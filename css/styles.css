@@ -41,7 +41,7 @@ body {
 }
 
 .icon:hover {
-  color: #bc022a;
+  color: #cb0000;
 }
 
 /*********************/
@@ -112,7 +112,7 @@ body {
 /*************************/
 /* TITLE */
 #title {
-  background-color: #bc022a;
+  background-color: #cb0000;
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 3.7rem;
   position: relative;
@@ -188,7 +188,7 @@ body {
 #proofs {
   padding: 1rem 15% 3rem;
   text-align: center;
-  background-color: #f23f03;
+  background-color: #ce2d03;
 }
 
 #alex-em {
@@ -224,7 +224,7 @@ body {
 /* PRESS */
 #press {
   text-align: center;
-  background-color: #d93700;
+  background-color: #c72c03;
   padding: 2rem 8rem 4rem;
 }
 
@@ -276,7 +276,7 @@ body {
 /***************************************/
 /* CONTACT US */
 #cta {
-  background-color: #bc022a;
+  background-color: #cb0000;
   text-align: center;
   padding: 4rem 11rem 4rem;
 }
