@@ -112,7 +112,7 @@ body {
 /*************************/
 /* TITLE */
 #title {
-  background-color: #bc022a;
+  background-color: #e30000;
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 3.7rem;
   position: relative;
@@ -276,7 +276,7 @@ body {
 /***************************************/
 /* CONTACT US */
 #cta {
-  background-color: #bc022a;
+  background-color: #e30000;
   text-align: center;
   padding: 4rem 11rem 4rem;
 }
