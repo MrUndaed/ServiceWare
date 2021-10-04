@@ -41,7 +41,7 @@ body {
 }
 
 .icon:hover {
-  color: #bc022a;
+  color: #ff0000;
 }
 
 /*********************/
@@ -112,7 +112,7 @@ body {
 /*************************/
 /* TITLE */
 #title {
-  background-color: #e30000;
+  background-color: #ff0000;
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 3.7rem;
   position: relative;
@@ -276,7 +276,7 @@ body {
 /***************************************/
 /* CONTACT US */
 #cta {
-  background-color: #e30000;
+  background-color: #ff0000;
   text-align: center;
   padding: 4rem 11rem 4rem;
 }
