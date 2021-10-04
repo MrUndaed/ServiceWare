@@ -37,7 +37,7 @@ body {
 
 /* ICON */
 .icon {
-  color: #f36151;
+  color: #ff5b24;
 }
 
 .icon:hover {
@@ -188,7 +188,7 @@ body {
 #proofs {
   padding: 1rem 15% 3rem;
   text-align: center;
-  background-color: #c44a00;
+  background-color: #f23f03;
 }
 
 #alex-em {
@@ -224,7 +224,7 @@ body {
 /* PRESS */
 #press {
   text-align: center;
-  background-color: #aa4000;
+  background-color: #d93700;
   padding: 2rem 8rem 4rem;
 }
 
