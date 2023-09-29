@@ -37,17 +37,17 @@ body {
 
 /* ICON */
 .icon {
-  color: #ff5b24;
+  color: #b70129;
 }
 
 .icon:hover {
-  color: #d2002e;
+  color: #da0235;
 }
 
 /*********************/
 /* PROOFS */
 .alex-pc {
-  width: 30%;
+  width: 15.2vw;
   border-radius: 100%;
   /* THIS ROUNDS THE IMG CORNERS */
 }
@@ -62,7 +62,7 @@ body {
 }
 
 .jiji-pc-fan-circle {
-  width: 32.2%;
+  width: 15.22vw;
 }
 
 /* WEB LOGOS */
@@ -112,24 +112,24 @@ body {
 /*************************/
 /* TITLE */
 #title {
-  background-color: #d2002e;
+  background-color: #da0235;
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 3.7rem;
   position: relative;
 }
 
 #h1 {
-  padding-top: 4rem;
+  padding-top: 6rem;
   font-family: 'Montserrat-Bold', sans-serif;
   font-weight: 900;
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   line-height: 1.3;
 }
 
 /*****************************/
 /* CONTAINER */
 #first-col {
-  padding: 3% 3.75% 0rem 7.5%;
+  padding: 3% 5% 0rem 7.5%;
 }
 
 #row1 {
@@ -186,9 +186,9 @@ body {
 /***************************/
 /* PROOFS */
 #proofs {
-  padding: 1rem 15% 3rem;
+  padding: 1rem 15% 4rem;
   text-align: center;
-  background-color: #cb0000;
+  background-color: #da0235;
 }
 
 #alex-em {
@@ -224,7 +224,7 @@ body {
 /* PRESS */
 #press {
   text-align: center;
-  background-color: #bf0000;
+  background-color: #b70129;
   padding: 2rem 8rem 4rem;
 }
 
@@ -247,6 +247,7 @@ body {
 #card {
   padding: 0rem 3.7rem 4rem;
   text-align: center;
+  border-color: #fff;
 }
 
 #card-header {
@@ -256,7 +257,12 @@ body {
 }
 
 #pricing p {
-  font-size: 1.3rem;
+  font-size: 2.2vb;
+}
+
+.pret-optiuni{
+  font-size: 1.6rem; 
+  font-weight: 700;
 }
 
 #h2-pret {
@@ -268,15 +274,15 @@ body {
   font-size: 3rem;
 }
 
-#h5-pret {
-  font-size: 3rem;
-  font-weight: 900
+#h4-pret {
+  font-size: 2.2rem;
+  font-weight: 900;
 }
 
 /***************************************/
 /* CONTACT US */
 #cta {
-  background-color:  #d2002e;
+  background-color: #da0235;
   text-align: center;
   padding: 4rem 11rem 4rem;
 }
@@ -309,4 +315,91 @@ body {
   #p {
     font-size: 2rem;
   }
+}
+
+.footer-icon{
+  transition: transform 0.3s;
+
+}
+/************************/
+/* ANIMATOINS */
+
+.footer-icon:hover{
+  transform: translateY(-10px);
+}
+
+
+
+
+
+/************************/
+/* REASONS */
+
+#reasons{
+  background-color:#da0235;
+  margin: 0;
+}
+
+#reasons div{
+  padding-bottom:10px;
+}
+
+
+#drivers{
+  display: inline-grid;
+}
+
+#FirstEnemy{
+  padding: 0 30% 0 10%;
+}
+
+#SecondEnemy{
+  padding: 0 10% 0 30%;
+}
+
+#FinalEnemy{
+  padding: 0 30% 0 10%;
+}
+
+
+/************************/
+/* PC Parts Picker help */
+
+#PCPP{
+  background-color: #fff;
+}
+
+.reveal{
+  position: relative;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/*************************/
+/* Buy Menu */
+#menuContainer {
+  display: contents;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 7;
+}
+
+#menuContainer.hidden {
+  display:none;
+}
+
+body.blur{
+  filter: blur(5px);
 }
